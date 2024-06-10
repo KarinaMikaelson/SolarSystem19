@@ -1,5 +1,7 @@
 package SolarSystem;
 
+import java.time.Period;
+
 public class solarSystem {
     public static void main(String[] args) {
         solarSystemBase solar =new solarSystemBase () ;
@@ -19,5 +21,11 @@ public class solarSystem {
         renox.color = "grey";
         renox.size = "10km";
         renox.radius = "5m";
+
+//      ...
+        planet2 perox = new planet2();
+        perox.color = "black";
+        perox.size = "1km";
+        perox.radius = "3m";
     }
 }
